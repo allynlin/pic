@@ -1,0 +1,13 @@
+body {
+  .t-head-menu.t-menu--dark {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 1);
+    }
+  }
+}
